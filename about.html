@@ -7,38 +7,49 @@
     <title>Responsive Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <div class="row">
-        <div class="col-xs-12">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Adrienne Knight</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Portfolio</a>
-                        <a class="nav-item nav-link" href="#">Contact</a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Adrienne Knight</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse purple right" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-item nav-link active" href="#">About <span
+                                    class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
     </div>
-
-    <div class="container">
-        <div class="block">
-            <h1>About Me</h1>
-            <hr>
-            <img class=border id="aboutImg"
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1>About Me</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+            <img class= "img-fluid" id="aboutImg"
                 src="https://2sd5cgpzfci13pfqv41axon1-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/Braided-Heart-RS-770x300.jpg"
                 alt="gray knitted cloth">
+            </div>
 
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eum, delectus sequi non aspernatur
+            <div class="col-8">
+            <p class="float-left"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eum, delectus sequi
+                non aspernatur
                 rem, adipisci, reprehenderit eius voluptatum obcaecati ratione porro culpa vero excepturi unde earum
                 facilis cupiditate neque.</p>
 
@@ -49,6 +60,7 @@
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eum, delectus sequi non aspernatur
                 rem, adipisci, reprehenderit eius voluptatum obcaecati ratione porro culpa vero excepturi unde earum
                 facilis cupiditate neque.</p>
+            </div>
         </div>
     </div>
 

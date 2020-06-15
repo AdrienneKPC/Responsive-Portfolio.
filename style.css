@@ -1,0 +1,23 @@
+ .purple {
+    background-color: purple;
+}
+
+.right {
+   text-align: right;
+}
+
+.float-left {
+    float: left;
+}
+
+
+
+.port-main {
+    border: black solid 5px;
+    height: 100%;
+}
+
+.project-page {
+    height: 500px;
+    background-color: aqua;
+}
